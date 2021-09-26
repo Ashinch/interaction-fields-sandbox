@@ -1,0 +1,14 @@
+//
+// Created by Ashinch on 2021/9/26.
+//
+
+#ifndef INTERACTION_FIELDS_SANDBOX_CONFIG_H
+#define INTERACTION_FIELDS_SANDBOX_CONFIG_H
+
+enum {
+    SUCCESS                 = 0,
+    INIT_SECCOMP_ERROR      = -1,
+    ADD_BLACK_LIST_ERROR    = -2,
+
+};
+#endif //INTERACTION_FIELDS_SANDBOX_CONFIG_H
